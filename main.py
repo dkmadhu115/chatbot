@@ -73,6 +73,6 @@ async def analyze_chat(chat_request: ChatRequest):
             return False
         
         except Exception as e:
-            # Handle any other exceptions
-            raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {e}")
+            print(f"An unexpected error occurred: {e}")
+            return False
 
