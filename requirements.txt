@@ -13,6 +13,6 @@ uvicorn==0.30.6
 Jinja2==3.1.4
 openai==0.28
 httpx==0.24.0  # Add this line
-pyautogen
+ag2
 matplotlib
 yfinance
